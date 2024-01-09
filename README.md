@@ -1,4 +1,4 @@
-# COLAB PREAMPLE
+# COLAB PREAMBLE
 Prepare google colaboratory by one line of command
 
 ## Installation
@@ -9,7 +9,7 @@ $ pip install colab-preamble
 
 # alternatively, from github
 $ git clone https://github.com/kota7/colab-preamble --depth 1
-$ pip install -U ./colab-preample
+$ pip install -U ./colab-preamble
 ```
 
 ## Example
@@ -21,7 +21,7 @@ Example colab notebook is here: [colab-preamble-example.ipynb](https://colab.res
 ```python
 import colab_preamble
 
-colab_preample_run(google_cloud_project="<project-id>", mount_drive=True)
+colab_preamble_run(google_cloud_project="<project-id>", mount_drive=True)
 # If no need to access google cloud services, no need to provide set google_cloud_project=None
 # If no need to mount google drive, set mount_drive=False
 ```
