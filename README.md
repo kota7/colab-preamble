@@ -1,7 +1,8 @@
 # COLAB PREAMBLE
+Prepare google colaboratory by one line of command
+
 [![](https://badge.fury.io/py/colab-preamble.svg)](https://badge.fury.io/py/colab-preamble)
 
-Prepare google colaboratory by one line of command
 
 ## Installation
 
