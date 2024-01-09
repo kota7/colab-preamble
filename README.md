@@ -5,10 +5,10 @@ Prepare google colaboratory by one line of command
 
 ```python
 # from pypi
-$ pip install colab-preample
+$ pip install colab-preamble
 
 # alternatively, from github
-$ git clone https://github.com/kota7/colab-preample --depth 1
+$ git clone https://github.com/kota7/colab-preamble --depth 1
 $ pip install -U ./colab-preample
 ```
 
@@ -16,7 +16,7 @@ $ pip install -U ./colab-preample
 ## Usage
 
 ```python
-import colab_preample
+import colab_preamble
 
 colab_preample_run(google_cloud_project="<project-id>", mount_drive=True)
 # If no need to access google cloud services, no need to provide set google_cloud_project=None
