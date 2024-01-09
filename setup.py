@@ -9,7 +9,7 @@ with open(readmefile) as f:
 
 setup(
     name='colab-preamble',
-    version="0.1.1",
+    version="0.1.2",
     description='Prepare google colabpratory by one line of command',
     author='Kota Mori', 
     author_email='kmori05@gmail.com',
@@ -17,6 +17,6 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/kota7/colab-preamble',
     
-    py_modules=['colab-preamble'],
+    py_modules=['colab_preamble'],
     install_requires=['google-colab', 'another-bigquery-magic']
 )
