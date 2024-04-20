@@ -12,7 +12,7 @@ def run(google_cloud_project: str=None, mount_drive: bool=True):
 
     if google_cloud_project is not None:
         print(f"Setting default google cloud project as {google_cloud_project}...", file=sys.stderr)
-        subprocess.run(["gcloud", "config", "set", google_cloud_project])
+        subprocess.run(["gcloud", "config", "set", "project", google_cloud_project])
         os.environ["GOOGLE_CLOUD_PROJECT"] = google_cloud_project
         print(f"Authenticating user...", file=sys.stderr)
         auth.authenticate_user()
